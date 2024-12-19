@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif; /* Set a clean font */
+    margin: 0;
+    padding: 0;
+    background-color: #e7f3ff; /* Light blue background color */
+}
+
+header {
+    background-color: #4e5bcf; /* Darker blue background for header */
+    color: white; /* White text color */
+    padding: 15px 0; /* Padding for header */
+    text-align: center; /* Center the header text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 20px; /* Space between links */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+    max-width: 800px; /* Max width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    background-color: white; /* White background for the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.biodatabox {
+    margin: 20px 0; /* Margin for the bio-data box */
+}
+
+table {
+    width: 100%; /* Full width for tables */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+td {
+    padding: 12px; /* Padding for table cells */
+    border: 1px solid #ddd; /* Light border for cells */
+}
+
+.hed, .heds {
+    font-weight: bold; /* Bold text for headers */
+    text-align: left; /* Left align text */
+    background-color: #f0f8ff; /* Light blue background for headers */
+}
+
+.fieldset {
+    margin: 20px 0; /* Margin for fieldset */
+    border: 1px solid #4e5bcf; /* Border color for fieldset */
+    border-radius: 5px; /* Rounded corners for fieldset */
+}
+
+legend {
+    font-weight: bold; /* Bold text for legend */
+    color: #4e5bcf; /* Darker blue color for legend */
+}
+
+footer {
+    text-align: center; /* Center footer text */
+    padding: 15px 0; /* Padding for footer */
+    background-color: #333; /* Same blue background */
+    color: white; /* White text color */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
